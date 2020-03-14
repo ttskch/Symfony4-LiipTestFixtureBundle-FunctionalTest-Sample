@@ -78,6 +78,9 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+    "liip/test-fixtures-bundle": {
+        "version": "1.7.0"
+    },
     "ocramius/package-versions": {
         "version": "1.5.1"
     },
