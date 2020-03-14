@@ -14,7 +14,8 @@
     },
     "require-dev": {
         "liip/test-fixtures-bundle": "^1.7",
-        "symfony/test-pack": "^1.0"
+        "symfony/test-pack": "^1.0",
+        "theofidry/alice-data-fixtures": "^1.1"
     },
     "config": {
         "preferred-install": {

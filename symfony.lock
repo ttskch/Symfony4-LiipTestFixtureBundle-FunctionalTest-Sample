@@ -75,11 +75,30 @@
     "doctrine/reflection": {
         "version": "v1.1.0"
     },
+    "fzaninotto/faker": {
+        "version": "v1.9.1"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
     "liip/test-fixtures-bundle": {
         "version": "1.7.0"
+    },
+    "myclabs/deep-copy": {
+        "version": "1.9.5"
+    },
+    "nelmio/alice": {
+        "version": "3.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.2",
+            "ref": "0b9900ece737bec7752e4155c0164639dd9b0cb0"
+        },
+        "files": [
+            "config/packages/dev/nelmio_alice.yaml",
+            "config/packages/test/nelmio_alice.yaml"
+        ]
     },
     "ocramius/package-versions": {
         "version": "1.5.1"
@@ -98,6 +117,18 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "sebastian/comparator": {
+        "version": "4.0.0"
+    },
+    "sebastian/diff": {
+        "version": "4.0.0"
+    },
+    "sebastian/exporter": {
+        "version": "4.0.0"
+    },
+    "sebastian/recursion-context": {
+        "version": "4.0.0"
     },
     "symfony/browser-kit": {
         "version": "v4.4.5"
@@ -195,6 +226,9 @@
     "symfony/http-kernel": {
         "version": "v4.4.5"
     },
+    "symfony/inflector": {
+        "version": "v4.4.5"
+    },
     "symfony/mime": {
         "version": "v4.4.5"
     },
@@ -228,6 +262,9 @@
     "symfony/polyfill-php73": {
         "version": "v1.14.0"
     },
+    "symfony/property-access": {
+        "version": "v4.4.5"
+    },
     "symfony/routing": {
         "version": "4.2",
         "recipe": {
@@ -259,6 +296,15 @@
     },
     "symfony/yaml": {
         "version": "v4.4.5"
+    },
+    "theofidry/alice-data-fixtures": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fe5a50faf580eb58f08ada2abe8afbd2d4941e05"
+        }
     },
     "zendframework/zend-code": {
         "version": "3.4.1"
